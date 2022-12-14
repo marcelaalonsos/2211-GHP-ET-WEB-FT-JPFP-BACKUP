@@ -5,7 +5,7 @@ const HomePage = () => {
     <div>
     <main id='homepage'>
         <span></span>
-        <h1>Welcome to Acme Schools Inc.</h1>
+        <h1>Welcome to Acme Schools</h1>
         <h3>Here you can manage and view campuses and students associated with Acme</h3>
         <p>Any queries please email: support@acme.edu</p>
         <span></span>

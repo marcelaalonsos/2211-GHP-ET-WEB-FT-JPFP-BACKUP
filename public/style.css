@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  font-family: 'catamaran',sans-serif;
+}
+
+body {
+  background-color:white;
+  color: #3B3355;
+}
+
+nav {
+  align-items: center;
+  background-color: white;
+  color: #1B998B ;
+  display: flex;
+  height: 100px;
+  padding: 10px;
+}
+
+.linkName {
+  color: #1B998B;
+  text-decoration: none;
+}
+
+.linkName:hover {
+  color: #C73E1D;
+}
+
+#logo {
+  width: 75px;
+  height: auto;
+  padding-right: 10px;
+}
+
+/* main {
+  align-items:flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+} */
+
+#homepage {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1B998B;
+  color: white;
+  font-family: 'catamaran',sans-serif;
+}
+
+#acmeBook {
+  width:1500px;
+  height: auto;
+}
+
+.container {
+  background-color: #1B998B;
+}
+
+#campus-container-list {
+  border-width: 50px;
+  border-style: solid;
+  border-color: #1B998B;
+  align-items:flex-start;
+  display: flex;
+  flex-direction: column;
+  font-family: 'catamaran',sans-serif;
+  background-color:rgba(255,255,255,.75);
+}
+
+#student-container-list {
+  border-width: 50px;
+  border-style: solid;
+  border-color: #1B998B;
+  align-items:flex-start;
+  display: flex;
+  flex-direction: column;
+  font-family: 'catamaran',sans-serif;
+  background-color:rgba(255,255,255,.75);
+}
+
+#single-campus {
+  border-width: 50px;
+  border-style: solid;
+  border-color: #1B998B;
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'catamaran',sans-serif;
+  background-color:rgba(255,255,255,.75);
+  color: #1B998B;
+}
+
+#single-student {
+  border-width: 50px;
+  border-style: solid;
+  border-color: #1B998B;
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'catamaran',sans-serif;
+  background-color:rgba(255,255,255,.75);
+  color: #1B998B;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+form {
+  align-items: center;
+  background-color: #C59849;
+  color: white;
+  padding: 10px;
+}
+
+span {
+  margin: 20px;
+}
+
+button {
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #C73E1D;
+}
